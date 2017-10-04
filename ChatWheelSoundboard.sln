@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWheelSoundboard", "ChatWheelSoundboard\ChatWheelSoundboard.csproj", "{2DBA4864-2CD3-4E72-8D61-0402E3947BB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DBA4864-2CD3-4E72-8D61-0402E3947BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBA4864-2CD3-4E72-8D61-0402E3947BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBA4864-2CD3-4E72-8D61-0402E3947BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBA4864-2CD3-4E72-8D61-0402E3947BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BF16B94-002C-4EA6-9860-4DA94E2576A2}
+	EndGlobalSection
+EndGlobal
