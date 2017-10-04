@@ -1,7 +1,36 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChatWheelSoundboard.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="num0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">crowd_lv_02</Value>
+    </Setting>
+    <Setting Name="num1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">patience</Value>
+    </Setting>
+    <Setting Name="num2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wow</Value>
+    </Setting>
+    <Setting Name="num3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">all_dead</Value>
+    </Setting>
+    <Setting Name="num4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">brutal</Value>
+    </Setting>
+    <Setting Name="num5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">disastah</Value>
+    </Setting>
+    <Setting Name="num6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bozhe_ti_posmotri</Value>
+    </Setting>
+    <Setting Name="num7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ay_ay_ay</Value>
+    </Setting>
+    <Setting Name="num8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ehto_g_g</Value>
+    </Setting>
+    <Setting Name="num9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">eto_prosto_netchto</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

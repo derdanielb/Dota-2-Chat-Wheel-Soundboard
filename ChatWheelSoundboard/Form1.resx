@@ -117,21 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="mappingLabel.Text" xml:space="preserve">
-    <value>NumPad0 = Applause
-NumPad1 = Patience from Zhou
-NumPad2 = Woaw
-NumPad3 = They're all dead!
-NumPad4 = Brutal. Savage. Rekt.
-NumPad5 = It's a disastah!
-NumPad6 = Боже, ты посмотри вокруг!
-NumPad7 = Ай-ай-ай-ай-ай!
-NumPad8 = Это ГГ
-NumPad9 = Это. Просто. Нечто.</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
