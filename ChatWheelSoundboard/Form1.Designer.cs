@@ -151,6 +151,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "github.com/derdanielb";
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.White;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
             // 
@@ -432,6 +433,7 @@
             this.Controls.Add(this.outputListBox);
             this.Controls.Add(this.inputListBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Dota 2 Chat-Wheel Soundboard";
             this.ResumeLayout(false);

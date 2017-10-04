@@ -204,48 +204,48 @@ namespace ChatWheelSoundboard
                 switch (e.Name)
                 {
                     case "num0":
-                        audioFileReader = new AudioFileReader("Chatwheel_"+ Properties.Settings.Default.num0 +".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num0 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_"+ Properties.Settings.Default.num0 +".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num0 + ".wav");
                         break;
                     case "num1":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num1 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num1 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num1 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num1 + ".wav");
                         break;
                     case "num2":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num2 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num2 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num2 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num2 + ".wav");
                         break;
                     case "num3":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num3 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num3 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num3 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num3 + ".wav");
                         break;
                     case "num4":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num4 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num4 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num4 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num4 + ".wav");
                         break;
                     case "num5":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num5 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num5 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num5 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num5 + ".wav");
                         break;
                     case "num6":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num6 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num6 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num6 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num6 + ".wav");
                         break;
                     case "num7":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num7 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num7 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num7 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num7 + ".wav");
                         break;
                     case "num8":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num8 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num8 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num8 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num8 + ".wav");
                         break;
                     case "num9":
-                        audioFileReader = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num9 + ".wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_" + Properties.Settings.Default.num9 + ".wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num9 + ".wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_" + Properties.Settings.Default.num9 + ".wav");
                         break;
                     default:
-                        audioFileReader = new AudioFileReader("Chatwheel_crowd_lv_02.wav");
-                        audioFileReader2 = new AudioFileReader("Chatwheel_crowd_lv_02.wav");
+                        audioFileReader = new AudioFileReader("Sounds/Chatwheel_crowd_lv_02.wav");
+                        audioFileReader2 = new AudioFileReader("Sounds/Chatwheel_crowd_lv_02.wav");
                         break;
                 }
 
@@ -347,6 +347,10 @@ namespace ChatWheelSoundboard
             string sound = num9ddb.SelectedValue.ToString();
             Properties.Settings.Default.num9 = sound;
             Properties.Settings.Default.Save();
+        }
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.github.com/derdanielb");
         }
 
     }
