@@ -37,14 +37,17 @@
             this.inputLabel = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // mappingLabel
             // 
-            this.mappingLabel.AutoSize = true;
-            this.mappingLabel.Location = new System.Drawing.Point(12, 71);
+            this.mappingLabel.Location = new System.Drawing.Point(12, 101);
             this.mappingLabel.Name = "mappingLabel";
-            this.mappingLabel.Size = new System.Drawing.Size(158, 130);
+            this.mappingLabel.Size = new System.Drawing.Size(220, 130);
             this.mappingLabel.TabIndex = 0;
             this.mappingLabel.Text = resources.GetString("mappingLabel.Text");
             // 
@@ -67,19 +70,21 @@
             this.outputListBox.Name = "outputListBox";
             this.outputListBox.Size = new System.Drawing.Size(120, 95);
             this.outputListBox.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.outputListBox, "Select the device for sound playback (for you to hear the sounds).\r\nUsually your " +
+        "current playback device is set to 0.\r\n");
             this.outputListBox.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // soundLabel
             // 
             this.soundLabel.AutoSize = true;
             this.soundLabel.BackColor = System.Drawing.Color.Transparent;
-            this.soundLabel.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.soundLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.soundLabel.ForeColor = System.Drawing.Color.White;
-            this.soundLabel.Location = new System.Drawing.Point(9, 30);
+            this.soundLabel.Location = new System.Drawing.Point(9, 80);
             this.soundLabel.Name = "soundLabel";
-            this.soundLabel.Size = new System.Drawing.Size(115, 32);
+            this.soundLabel.Size = new System.Drawing.Size(130, 18);
             this.soundLabel.TabIndex = 3;
-            this.soundLabel.Text = "Sounds:";
+            this.soundLabel.Text = "Sounds Mapping:";
             // 
             // inputLabel
             // 
@@ -106,6 +111,54 @@
             this.outputLabel.Size = new System.Drawing.Size(122, 13);
             this.outputLabel.TabIndex = 5;
             this.outputLabel.Text = "Sound Playback Device";
+            this.toolTip1.SetToolTip(this.outputLabel, "Select the device for sound playback (for you to hear the sounds).\r\nUsually your " +
+        "current playback device is set to 0.");
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(15, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(403, 53);
+            this.label1.TabIndex = 6;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.ForeColor = System.Drawing.Color.White;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(68, 276);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(113, 13);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "github.com/derdanielb";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.White;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 276);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Created by";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(12, 293);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(312, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Background image and sounds are property of Valve Corporation";
             // 
             // Form1
             // 
@@ -114,7 +167,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(581, 433);
+            this.ClientSize = new System.Drawing.Size(581, 311);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.inputLabel);
             this.Controls.Add(this.soundLabel);
@@ -138,6 +195,10 @@
         private System.Windows.Forms.Label inputLabel;
         private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

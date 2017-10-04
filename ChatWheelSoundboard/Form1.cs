@@ -67,17 +67,28 @@ namespace ChatWheelSoundboard
             }
             inputListBox.DataSource = _devicesIn;
             outputListBox.DataSource = _devicesOut;
-            
-            HotkeyManager.Current.AddOrReplace("disastah", Keys.NumPad0, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("ehto_g_g", Keys.NumPad1, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("eto_prosto_netchto", Keys.NumPad2, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("patience", Keys.NumPad3, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("wow", Keys.NumPad4, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("all_dead", Keys.NumPad5, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("ay_ay_ay", Keys.NumPad6, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("bozhe_ti_posmotri", Keys.NumPad7, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("brutal", Keys.NumPad8, OnSoundTrigger);
-            HotkeyManager.Current.AddOrReplace("crowd_lv_02", Keys.NumPad9, OnSoundTrigger);
+
+            //num0ddb.DataSource = messages;
+            //num1ddb.DataSource = messages;
+            //num2ddb.DataSource = messages;
+            //num3ddb.DataSource = messages;
+            //num4ddb.DataSource = messages;
+            //num5ddb.DataSource = messages;
+            //num6ddb.DataSource = messages;
+            //num7ddb.DataSource = messages;
+            //num8ddb.DataSource = messages;
+            //num9ddb.DataSource = messages;
+
+            HotkeyManager.Current.AddOrReplace("crowd_lv_02", Keys.NumPad0, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("patience", Keys.NumPad1, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("wow", Keys.NumPad2, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("all_dead", Keys.NumPad3, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("brutal", Keys.NumPad4, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("disastah", Keys.NumPad5, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("bozhe_ti_posmotri", Keys.NumPad6, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("ay_ay_ay", Keys.NumPad7, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("ehto_g_g", Keys.NumPad8, OnSoundTrigger);
+            HotkeyManager.Current.AddOrReplace("eto_prosto_netchto", Keys.NumPad9, OnSoundTrigger);
 
             currentDevice = maxDevices - 1;
             inputListBox.SetSelected(currentDevice, true);
@@ -177,5 +188,20 @@ namespace ChatWheelSoundboard
         {
             currentPlaybackDevice = ((ListBox)sender).SelectedIndex;
         }
+
+        //private void num0ddb_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+        //    string sound = (((ComboBox)sender).SelectedItem).ToString();
+        //    Keys key = Keys.NumPad0;
+        //    setHotKey(key, sound);
+
+        //}
+
+        //private void setHotKey(Keys key, string sound)
+        //{
+        //    //this is causing an exception if keys are re-binded during runtime
+        //    HotkeyManager.Current.Remove(sound);
+        //    HotkeyManager.Current.AddOrReplace(sound, key, OnSoundTrigger);
+        //}
     }
 }
