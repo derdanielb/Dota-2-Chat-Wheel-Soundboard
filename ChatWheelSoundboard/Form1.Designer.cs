@@ -144,7 +144,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.ForeColor = System.Drawing.Color.White;
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(66, 423);
+            this.linkLabel1.Location = new System.Drawing.Point(66, 403);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(113, 13);
             this.linkLabel1.TabIndex = 7;
@@ -158,7 +158,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(10, 423);
+            this.label2.Location = new System.Drawing.Point(10, 403);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 8;
@@ -169,7 +169,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(10, 440);
+            this.label3.Location = new System.Drawing.Point(10, 420);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(312, 13);
             this.label3.TabIndex = 9;
@@ -402,7 +402,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(492, 460);
+            this.ClientSize = new System.Drawing.Size(492, 438);
             this.Controls.Add(this.num9label);
             this.Controls.Add(this.num8label);
             this.Controls.Add(this.num7label);
