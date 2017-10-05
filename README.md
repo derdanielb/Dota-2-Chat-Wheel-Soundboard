@@ -8,7 +8,7 @@ I created a soundboard that will play all compendium chat wheel sounds via ingam
 For this setup we need two downloads. The soundboard and an audio driver.
 ### Downloads
 
-1. Download the precompiled [Chat Wheel Soundboard](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/raw/master/readme/ChatWheelSoundboard.zip)
+1. Download the precompiled [Chat Wheel Soundboard](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/releases/download/1.0/ChatWheelSoundboard.zip)
 2. Download the tool [VB-Audio Virtual Cable](https://www.vb-audio.com/Cable/index.htm#DownloadCable)
 (Any other audio tool that can send playback sound to a recording device will work)
 
