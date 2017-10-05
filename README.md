@@ -46,4 +46,4 @@ Start Dota 2. Go to Settings>Audio>Voice: Select 'Open Mic' for team voice chat.
 - Audio tool to send sound from playback source to recording source. I recommend [VB-Audio Virtual Cable](https://www.vb-audio.com/Cable/index.htm#DownloadCable).
 
 ## Limitations
-It is not possible to use voice chat and soundboard at the same time, since both require to be steams recording device.
+It is not possible to use your mircophone and soundboard at the same time, since both require to be steams recording device.
