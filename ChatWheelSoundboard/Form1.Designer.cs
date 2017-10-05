@@ -72,7 +72,7 @@
             this.inputListBox.TabIndex = 1;
             this.toolTip1.SetToolTip(this.inputListBox, "Select the device that corresponds to \'CABLE INPUT\'.\r\nIf you recently installed t" +
         "he driver this is ussually the last device.\r\nCheck sound manager if indicator li" +
-        "ghts up.\r\n\r\n");
+        "ghts up when a sound is played.\r\n\r\n");
             this.inputListBox.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // outputListBox
@@ -112,7 +112,7 @@
             this.inputLabel.Text = "Mic Device (Cable Input) (?)";
             this.toolTip1.SetToolTip(this.inputLabel, "Select the device that corresponds to \'CABLE INPUT\'.\r\nIf you recently installed t" +
         "he driver this is ussually the last device.\r\nCheck sound manager if indicator li" +
-        "ghts up.");
+        "ghts up when a sound is played.");
             // 
             // outputLabel
             // 
