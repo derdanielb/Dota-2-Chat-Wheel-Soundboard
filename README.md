@@ -30,6 +30,7 @@ Go to your Steam Settings>Voice> click 'Change device'. Windows sound manager wi
 3. __Set virtual cable as default:__
 Set **'CABLE Output'** as your *standard device* and also as *standard communication device*
 ![Windows sound manager](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/raw/master/readme/windows_sound.png "Windows sound manager")
+
 When you are done, in *Steam>Settings>Voice* click *Detect Audio devices*. This should set you steam recording device to 'CABLE Output' as it can be seen in step 2). 
 
 
