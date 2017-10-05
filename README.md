@@ -31,11 +31,11 @@ Go to your Steam Settings>Voice> click 'Change device'. Windows sound manager wi
 Set **'CABLE Output'** as your *standard device* and also as *standard communication device*
 ![Windows sound manager](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/raw/master/readme/windows_sound.png "Windows sound manager")
 
-When you are done, in *Steam>Settings>Voice* click *Detect Audio devices*. This should set you steam recording device to 'CABLE Output' as it can be seen in step 2). 
+When you are done, in *Steam>Settings>Voice* click *'Detect Audio devices'*. This should set you steam recording device to 'CABLE Output' as it can be seen in step 2). 
 
 
 4. __Start ChatWheelSoundboard.exe:__
-Figure our the correct 'Mic device' on the left hand side of the soundbar.
+Figure our the correct 'Mic device' on the left hand side of the soundboard.
 Usually the largest number is the most recently installed device (which should be the virtual cable tool).
 You can check your selection by watching the indicator bar at windows sound manager (step 3) or steam microphone test (step 2).
 
