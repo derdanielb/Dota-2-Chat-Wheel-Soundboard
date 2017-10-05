@@ -22,7 +22,8 @@ NOTE: Any other audio tool that can emulate playback sound to a recording source
 
 
 2. __Change your steam voice recording device:__
-Go to your Steam Settings>Voice> click 'Change device'. Windows sound manager will popup.
+Go to your Steam Settings>Voice> click 'Change device'. Windows sound manager will popup. 
+
 ![Steam settings](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/raw/master/readme/steam_audio.png "Steam settings")
 
 
