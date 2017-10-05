@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,85 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Chatwheel_all_dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_all_dead.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_ay_ay_ay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_ay_ay_ay.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_bozhe_ti_posmotri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_bozhe_ti_posmotri.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_brutal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_brutal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_charge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_charge.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_crash_burn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_crash_burn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_cricket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_cricket.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_Crowd_lv_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_Crowd_lv_02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_crybaby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_crybaby.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_disastah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_disastah.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_drum_roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_drum_roll.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_ehto_g_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_ehto_g_g.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_eto_prosto_netchto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_eto_prosto_netchto.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_frog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_frog.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_headshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_headshake.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_jia_you" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_jia_you.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_patience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_patience.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_po_liang_lu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_po_liang_lu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_rimshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_rimshot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_sad_bone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_sad_bone.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_tian_huo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_tian_huo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_wan_bu_liao_la" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_wan_bu_liao_la.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_wow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_wow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_zhil_do_konsta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_zhil_do_konsta.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_zou_hao_bu_song" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_zou_hao_bu_song.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

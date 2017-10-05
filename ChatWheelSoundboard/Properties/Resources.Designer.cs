@@ -59,5 +59,230 @@ namespace ChatWheelSoundboard.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_all_dead {
+            get {
+                return ResourceManager.GetStream("Chatwheel_all_dead", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_ay_ay_ay {
+            get {
+                return ResourceManager.GetStream("Chatwheel_ay_ay_ay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_bozhe_ti_posmotri {
+            get {
+                return ResourceManager.GetStream("Chatwheel_bozhe_ti_posmotri", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_brutal {
+            get {
+                return ResourceManager.GetStream("Chatwheel_brutal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_charge {
+            get {
+                return ResourceManager.GetStream("Chatwheel_charge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_crash_burn {
+            get {
+                return ResourceManager.GetStream("Chatwheel_crash_burn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_cricket {
+            get {
+                return ResourceManager.GetStream("Chatwheel_cricket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_Crowd_lv_02 {
+            get {
+                return ResourceManager.GetStream("Chatwheel_Crowd_lv_02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_crybaby {
+            get {
+                return ResourceManager.GetStream("Chatwheel_crybaby", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_disastah {
+            get {
+                return ResourceManager.GetStream("Chatwheel_disastah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_drum_roll {
+            get {
+                return ResourceManager.GetStream("Chatwheel_drum_roll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_ehto_g_g {
+            get {
+                return ResourceManager.GetStream("Chatwheel_ehto_g_g", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_eto_prosto_netchto {
+            get {
+                return ResourceManager.GetStream("Chatwheel_eto_prosto_netchto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_frog {
+            get {
+                return ResourceManager.GetStream("Chatwheel_frog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_headshake {
+            get {
+                return ResourceManager.GetStream("Chatwheel_headshake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_jia_you {
+            get {
+                return ResourceManager.GetStream("Chatwheel_jia_you", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_patience {
+            get {
+                return ResourceManager.GetStream("Chatwheel_patience", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_po_liang_lu {
+            get {
+                return ResourceManager.GetStream("Chatwheel_po_liang_lu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_rimshot {
+            get {
+                return ResourceManager.GetStream("Chatwheel_rimshot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_sad_bone {
+            get {
+                return ResourceManager.GetStream("Chatwheel_sad_bone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_tian_huo {
+            get {
+                return ResourceManager.GetStream("Chatwheel_tian_huo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_wan_bu_liao_la {
+            get {
+                return ResourceManager.GetStream("Chatwheel_wan_bu_liao_la", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_wow {
+            get {
+                return ResourceManager.GetStream("Chatwheel_wow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_zhil_do_konsta {
+            get {
+                return ResourceManager.GetStream("Chatwheel_zhil_do_konsta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Chatwheel_zou_hao_bu_song {
+            get {
+                return ResourceManager.GetStream("Chatwheel_zou_hao_bu_song", resourceCulture);
+            }
+        }
     }
 }

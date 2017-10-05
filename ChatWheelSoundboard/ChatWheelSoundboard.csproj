@@ -136,6 +136,31 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Sounds\Chatwheel_all_dead.wav" />
+    <None Include="Sounds\Chatwheel_ay_ay_ay.wav" />
+    <None Include="Sounds\Chatwheel_bozhe_ti_posmotri.wav" />
+    <None Include="Sounds\Chatwheel_brutal.wav" />
+    <None Include="Sounds\Chatwheel_charge.wav" />
+    <None Include="Sounds\Chatwheel_crash_burn.wav" />
+    <None Include="Sounds\Chatwheel_cricket.wav" />
+    <None Include="Sounds\Chatwheel_Crowd_lv_02.wav" />
+    <None Include="Sounds\Chatwheel_crybaby.wav" />
+    <None Include="Sounds\Chatwheel_disastah.wav" />
+    <None Include="Sounds\Chatwheel_drum_roll.wav" />
+    <None Include="Sounds\Chatwheel_ehto_g_g.wav" />
+    <None Include="Sounds\Chatwheel_eto_prosto_netchto.wav" />
+    <None Include="Sounds\Chatwheel_frog.wav" />
+    <None Include="Sounds\Chatwheel_headshake.wav" />
+    <None Include="Sounds\Chatwheel_jia_you.wav" />
+    <None Include="Sounds\Chatwheel_patience.wav" />
+    <None Include="Sounds\Chatwheel_po_liang_lu.wav" />
+    <None Include="Sounds\Chatwheel_rimshot.wav" />
+    <None Include="Sounds\Chatwheel_sad_bone.wav" />
+    <None Include="Sounds\Chatwheel_tian_huo.wav" />
+    <None Include="Sounds\Chatwheel_wan_bu_liao_la.wav" />
+    <None Include="Sounds\Chatwheel_wow.wav" />
+    <None Include="Sounds\Chatwheel_zhil_do_konsta.wav" />
+    <None Include="Sounds\Chatwheel_zou_hao_bu_song.wav" />
     <Content Include="ti7_aegis_banner_ico_DDH_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
