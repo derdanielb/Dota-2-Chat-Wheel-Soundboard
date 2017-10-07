@@ -17,7 +17,7 @@ For this setup two downloads are needed: The soundboard and an audio driver.
 *Please remember your previous settings if change anything.*
 
 1. __Install the **VB-Audio Virtual Cable**:__ 
-Setup requires to be run in Administrator Mode. Please refer to Tool Documentation (actually it only a one-button-installation).
+Setup requires to be run in Administrator Mode. Please refer to tool documentation (actually it is only a one-button-installation).
 NOTE: Any other audio tool that can emulate playback sound to a recording source will work aswell.
 
 
@@ -35,9 +35,9 @@ When you are done, in *Steam>Settings>Voice* click *'Detect Audio devices'*. Thi
 
 
 4. __Start ChatWheelSoundboard.exe:__
-Figure our the correct 'Mic device' on the left hand side of the soundboard.
+Figure out the correct 'Mic device' on the left hand side of the soundboard.
 Usually the largest number is the most recently installed device (which should be the virtual cable tool).
-You can check your selection by watching the indicator bar at windows sound manager (step 3) or steam microphone test (step 2).
+You can check your selection by watching the indicator bar at windows sound manager (step 3) or steam microphone test (step 2) when playing a sound.
 
 5. __Enable Dota 2 open microphone:__
 Start Dota 2. Go to Settings>Audio>Voice: Select 'Open Mic' for team voice chat.
