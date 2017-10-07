@@ -1,23 +1,23 @@
 # Dota-2-Chat-Wheel-Soundboard
 This is a small project to re-integrate chat wheel sounds to Dota 2.
-I created a soundboard that will play all compendium chat wheel sounds via ingame voice chat to you and your teammates.
+I created a soundboard that plays all compendium chat wheel sounds via ingame voice chat to you and your teammates.
 
 ![Soundboard](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/raw/master/readme/application.png "Soundboard")
 
 ## Installation
-For this setup we need two downloads. The soundboard and an audio driver.
+For this setup two downloads are needed: The soundboard and an audio driver.
 ### Downloads
 
 1. Download the precompiled [Chat Wheel Soundboard](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/releases/download/1.0/ChatWheelSoundboard.zip)
 2. Download the tool [VB-Audio Virtual Cable](https://www.vb-audio.com/Cable/index.htm#DownloadCable)
 (Any other audio tool that can send playback sound to a recording device will work)
 
-### Setup
+### Setup (5 Steps)
 
 *Please remember your previous settings if change anything.*
 
 1. __Install the **VB-Audio Virtual Cable**:__ 
-Setup requires to be run in Administrator Mode. Please refer to Tool Documentation.
+Setup requires to be run in Administrator Mode. Please refer to Tool Documentation (actually it only a one-button-installation).
 NOTE: Any other audio tool that can emulate playback sound to a recording source will work aswell.
 
 
@@ -31,7 +31,7 @@ Go to your Steam Settings>Voice> click 'Change device'. Windows sound manager wi
 Set **'CABLE Output'** as your *standard device* and also as *standard communication device*
 ![Windows sound manager](https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/raw/master/readme/windows_sound.png "Windows sound manager")
 
-When you are done, in *Steam>Settings>Voice* click *'Detect Audio devices'*. This should set you steam recording device to 'CABLE Output' as it can be seen in step 2). 
+When you are done, in *Steam>Settings>Voice* click *'Detect Audio devices'*. This should set your steam recording device to 'CABLE Output' as it can be seen in screenshot from step 2). 
 
 
 4. __Start ChatWheelSoundboard.exe:__
