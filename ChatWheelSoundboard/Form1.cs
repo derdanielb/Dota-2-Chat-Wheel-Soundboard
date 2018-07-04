@@ -1,5 +1,4 @@
-﻿
-using NHotkey;
+﻿using NHotkey;
 using NHotkey.WindowsForms;
 using NAudio;
 using NAudio.Wave;
@@ -51,7 +50,13 @@ namespace ChatWheelSoundboard
             "charge",
             "crash_burn",
             "cricket",
-            "crowd_lv_02"
+            "crowd_lv_02",
+            "echo",
+            "i_cant_believe",
+            "lakad_matatag",
+            "money",
+            "next_level_play",
+            "oy_oy"
         };
         static SoundMapping[] mapping =
         {
@@ -79,7 +84,13 @@ namespace ChatWheelSoundboard
             new SoundMapping{ Display = "Charge", Wav = "charge"},
             new SoundMapping{ Display = "Crash and burn", Wav = "crash_burn"},
             new SoundMapping{ Display = "Crickets", Wav = "cricket"},
-            new SoundMapping{ Display = "Applause", Wav = "crowd_lv_02"}
+            new SoundMapping{ Display = "Applause", Wav = "crowd_lv_02"},
+            new SoundMapping{ Display = "Easiest Money of my Life", Wav = "money"},
+            new SoundMapping{ Display = "Echo Slamma Jamma", Wav = "echo"},
+            new SoundMapping{ Display = "I can't believe what were seeing. What just happened?", Wav = "i_cant_believe"},
+            new SoundMapping{ Display = "Lakad Matataaag, Normalin, Normalin", Wav = "lakad_matatag"},
+            new SoundMapping{ Display = "Oyoy oy oy oy oy oy oy oy!", Wav = "oy_oy"},
+            new SoundMapping{ Display = "The next level play!", Wav = "next_level_play"}
         };
 
         SoundMapping[] num0_val = new SoundMapping[mapping.Length];
@@ -325,6 +336,18 @@ namespace ChatWheelSoundboard
                     return Properties.Resources.Chatwheel_cricket;
                 case "crowd_lv_02":
                     return Properties.Resources.Chatwheel_Crowd_lv_02;
+                case "echo":
+                    return Properties.Resources.Chatwheel_echo;
+                case "i_cant_believe":
+                    return Properties.Resources.Chatwheel_i_cant_believe;
+                case "lakad_matatag":
+                    return Properties.Resources.Chatwheel_lakad_matatag;
+                case "money":
+                    return Properties.Resources.Chatwheel_money;
+                case "next_level_play":
+                    return Properties.Resources.Chatwheel_next_level_play;
+                case "oy_oy":
+                    return Properties.Resources.Chatwheel_oy_oy;
              default:
                     return Properties.Resources.Chatwheel_cricket;
             }
@@ -408,10 +431,19 @@ namespace ChatWheelSoundboard
             Properties.Settings.Default.num9 = sound;
             Properties.Settings.Default.Save();
         }
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("http://www.github.com/derdanielb");
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/derdanielb/Dota-2-Chat-Wheel-Soundboard/graphs/contributors");
+        }
     }
 }
