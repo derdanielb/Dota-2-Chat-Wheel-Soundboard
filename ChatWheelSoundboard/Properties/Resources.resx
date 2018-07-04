@@ -193,4 +193,22 @@
   <data name="Chatwheel_zou_hao_bu_song" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Sounds\Chatwheel_zou_hao_bu_song.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Chatwheel_echo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_echo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_i_cant_believe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_i_cant_believe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_lakad_matatag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_lakad_matatag.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_money.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_next_level_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_next_level_play.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chatwheel_oy_oy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\Chatwheel_oy_oy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
